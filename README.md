@@ -91,7 +91,7 @@ Example of adding a native Google Pay button:
   onPress={checkCanMakePayment}
   allowedPaymentMethods={googlePayRequest.allowedPaymentMethods}
   theme={GooglePayButtonConstants.Themes.Dark}
-  type={GooglePayButtonConstants.Types.Buy}
+  type={GooglePayButtonConstants.Types.Buy} 10 
   radius={4}
 />
 ```
